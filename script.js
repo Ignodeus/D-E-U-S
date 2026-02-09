@@ -96,7 +96,7 @@ faceMesh.onResults(onResults);
 new controls
     .ControlPanel(controlsElement, solutionOptions)
     .add([
-    new controls.StaticText({ title: 'MediaPipe Face Mesh' }),
+    new controls.StaticText({ title: 'MediaPipe Malla Frontal' }),
     fpsControl,
     new controls.Toggle({ title: 'Selfie Mode', field: 'selfieMode' }),
     new controls.SourcePicker({
